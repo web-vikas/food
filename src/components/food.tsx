@@ -57,9 +57,8 @@ const Hero = () => {
           ))}
         </div>
       </TabsContent>
-      {/* Add TabsContent for password if needed */}
-      <Ingrediant/>
 
+      <Ingrediant/>
     </Tabs>
   );
 };

@@ -4,7 +4,7 @@ import React, { useState } from "react";
 import {
   Card
 } from "@/components/ui/card";
-import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs";
+import { Tabs, TabsContent } from "@/components/ui/tabs";
 
 const ingrediant = () => {
     const [searchQuery, setSearchQuery] = useState("");
