@@ -1,7 +1,12 @@
-export default function Home() {
+import React from "react";
+import Hero from "@/components/food";
+
+const page = () => {
   return (
-    <main className="flex min-h-screen flex-col items-center justify-between p-24">
-      Hello
-    </main>
+    <div className="bg-gray-800 w-full  h-fit">
+      <Hero />
+    </div>
   );
-}
+};
+
+export default page;
